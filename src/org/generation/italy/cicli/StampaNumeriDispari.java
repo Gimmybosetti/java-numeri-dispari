@@ -20,7 +20,7 @@ public class StampaNumeriDispari {
 		int max = 100;
 		
 		for (int i = 0; i < n; i++) {
-			array[i] = r.nextInt(max+1);
+			array[i] = r.nextInt(max);
 			if (array[i] % 2 != 0) {
 				System.out.println("Element position " + (i+1) + ": " + array[i]);
 				odd++;
